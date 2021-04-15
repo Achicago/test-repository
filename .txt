@@ -1,0 +1,15 @@
+
+git init                     # Initialise empty git repository
+git status                   # Repository Information
+git add                      # Add file to the staging area
+git commit -m "<string>"     # Commit a file
+git remote add origin https://github.com/Achicago/test-repository.git #
+git push                     # To push your code in the repository
+git pull                     # To download the code in the repository
+
+
+
+
+
+
+
