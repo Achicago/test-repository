@@ -9,6 +9,28 @@ git pull                     # To download the code in the repository
 
 
 
+    Simple solution:
+
+git init
+git add =A
+git commit -m "your commit"
+git push -u origin master
+
+if you want add folder to existing repo ..then add folder to local project code
+
+git rm --cached ./folderName
+ git add ./folderName
+
+after that
+
+git status
+git commit -m "your commit"
+git push -u origin master
+
+
+
+
+
 
 
 
