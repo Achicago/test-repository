@@ -7,7 +7,8 @@ git remote add origin https://github.com/Achicago/test-repository.git #
 git push                     # To push your code in the repository
 git pull                     # To download the code in the repository
 
-
+ssh-keygen                   # To generate ssh key for your device
+cat /c/Users/Cyfa/.ssh/id_rsa.pub  # To view and copy the key generated
 
     Simple solution:
 
