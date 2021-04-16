@@ -29,7 +29,7 @@ git commit -m "your commit"
 git push -u origin master
 
 
-
+heroku logs --app=HEROKU APP NAME HERE
 
 
 
