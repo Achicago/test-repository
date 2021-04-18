@@ -1,4 +1,3 @@
-
 git init                     # Initialise empty git repository
 git status                   # Repository Information
 git add                      # Add file to the staging area
@@ -6,6 +5,10 @@ git commit -m "<string>"     # Commit a file
 git remote add origin https://github.com/Achicago/test-repository.git #
 git push                     # To push your code in the repository
 git pull                     # To download the code in the repository
+git branch <Branch Name>     # To create a branch, so as not to contaminate you code
+git checkout <Branch Name>   # To Switch to any branch 
+git merge   <Branch Name>    # To merge branch after you might have gone back to ur working branch and then {git push}
+git branch -d <Branch Name>  # To Delete a branch
 
 ssh-keygen                   # To generate ssh key for your device
 cat /c/Users/Cyfa/.ssh/id_rsa.pub  # To view and copy the key generated
@@ -30,9 +33,4 @@ git push -u origin master
 
 
 heroku logs --app=HEROKU APP NAME HERE
-
-
-
-
-
 
